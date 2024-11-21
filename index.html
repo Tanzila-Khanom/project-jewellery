@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Furniture-shpop-home</title>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css"
+    integrity="sha512-TPigxKHbPcJHJ7ZGgdi2mjdW9XHsQsnptwE+nOUWkoviYBn0rAAt0A5y3B1WGqIHrKFItdhZRteONANT07IipA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 <body>
@@ -24,16 +30,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">About</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Blog</a>
+            <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Shop</a>
+            <a class="nav-link" href="#">Shop</a>
           </li>
         </ul>
       </div>
@@ -41,6 +47,7 @@
   </nav>
 </header>
 
+<!-- header end -->
 
 <main>
 
@@ -50,197 +57,451 @@
     <div class="banner">
       <div class="banner-img">
         <img src="assets/pic/images/slider-bg.jpg" alt="" srcset="" class="img-fluid w-100 position-relative" style="height: 500px;">
-      </div>
-      <div class="banner-contant position-absolute">
-        <h1><b>Best Jewellery <br>Collection</b></h1>
-        <P>It is a long established fact that a reader will be <br>distracted by the readable content of a page when <br>looking at its layyout.The point of using lorem</P>
-        <br><br>
-        <a class="btn px-5 btn1" href="">Shop now</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="banner-content text-light position-absolute">
+                <h1 class="fw-bold">Best Jewellery <br>Collection</h1>
+                <p>It is a long established fact that a reader will be <br>distracted by the readable content of a page when <br>looking at its layyout.The point of using lorem</p>
+                <br>
+                <a class="btn btn1" href="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </banner>
 
+  <!-- banner end -->
+
+
   <!-- LATEST PRODUCT -->
 
-  <div class="latest-product">
-    <div class="container my-5">
-      <h3 class="text-center py-5"><b>LATEST PRODUCT</b></h3>
-      <div class="row">
-        <div class="col-md-3 mb-5">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p1.png" class="card-img-top px-5" alt="..." style="height: 220px;" >
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Necklace</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $200</span></div>
-              </div>
+  <div class="container my-5">
+    <h3 class="text-center fw-bold pt-5">LATEST PRODUCTS</h3>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 mt-5 mb-3">
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p1.png" alt="">
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p2.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Necklace</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $300</span></div>
-              </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Necklace</p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p3.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Necklace</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $110</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p4.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Ring</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $45</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p5.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Ring</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $95</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p6.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Earring</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $70</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p7.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Earring</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $400</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card" style="width: 18rem; background: #eeeeee; height: 350px;">
-            <a class="btn btn3" href="">New</a>
-            <img src="assets/pic/images/p8.png" class="card-img-top px-5" alt="..." style="height: 220px;">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">Necklace</div>
-              <div class="col-md-6 ps-5">price<span style="color: #fd9c6b;"> $450</span></div>
-              </div>
+            <div class="pp ms-auto">
+              <p>Price <span>$200</span></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center py-5"><a class="btn btn2 px-5" href="">View All Products</a></div>
-
-      <!-- ABOUT US -->
-
-      <div class="row my-5 pe-5">
-        <div class="col-md-6">
-          <img class="position-relative style3" src="assets/pic/images/o1.jpg" alt="" srcset="">
-          <img class="position-absolute style4" src="assets/pic/images/about-img.jpg" alt="" srcset="">
-        </div>
-        <div class="col-md-6 my-5 p-3">
-          <h3><b>ABOUT US</b></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elitadipisicing elit asperiores et porro<br> Placeat ducimus asperiores et porro libero possimusadipisicing elit asperiores et porro<br>corporis eaque itaque totam  soluta tenetur ab vel inciduntadipisicing elit asperiores et porro<br> maxime quae tempore, eius facere numquam asperiores et porro libero</p>
-          <br>
-          <a class="btn btn2 px-5 py-2" href="">Read More</a>
+    
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p2.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Necklace</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$300</span></p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p3.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Necklace</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$110</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p4.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Ring</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$45</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p5.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Ring</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$95</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p6.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Earrings</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$70</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p7.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Earrings</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$400</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <div class="new m-2 bg-light">
+            <h6 class="text-center fw-bold">New</h6>
+          </div>
+          <div class="card-body">
+            <div class="pic">
+              <img src="assets/pic/images/p8.png" alt="" srcset="">
+            </div>
+          </div>
+          <div class="details p-2 mt-4 d-flex">
+            <div class="product">
+              <p>Necklace</p>
+            </div>
+            <div class="ms-auto">
+              <p>Price <span>$450</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="button d-flex justify-content-center mb-5">
+      <a class="btn btn2" href="">View All Products</a>
     </div>
   </div>
 
-  <!-- Up to Off -->
+  <!-- LATEST PRODUCT end -->
 
-  <div class="container-fluid">
-    <div class="row my-5 py-5">
-      <div class="col-md-6">
-        <h2>Upto 15% off</h2>
-        <a class="btn btn1 px-5" href="">Shop Now</a>
-        <img src="assets/pic/images/o1.jpg" alt="" srcset="" class="img-fluid">
-      </div>
-      <div class="col-md-6">
-       <img src="assets/pic/images/o2.jpg" alt="" srcset="" class="img-fluid">
-       <br>
-       <img src="assets/pic/images/o3.jpg" alt="" srcset="" class="img-fluid">
-      </div>
-    </div>
-  </div>
 
-  <!-- Latest From Blog -->
+  <!-- ABOUT US -->
 
   <div class="container my-5">
-    <h3 class="text-center py-3"><b>LATEST FROM BLOG</b></h3>
     <div class="row py-5">
+
       <div class="col-md-6">
-        <div class="card" style="width: 40rem;">
-          <img src="assets/pic/images/b1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+        <div class="about-image">
+          <img src="assets/pic/images/about-img.jpg" alt="" class="img-fluid">
         </div>
       </div>
-      <div class="card" style="width: 40rem;">
-        <img src="assets/pic/images/b2.jpg" class="card-img-topimg" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+
+      <div class="col-md-6 mt-5 pt-4">
+        <h3 class="fw-bold">ABOUT US</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati voluptatum architecto cumque
+          deleniti culpa delectus, accusamus eveniet dignissimos, in sint. Optio, aliquid nam. Vel tempora iste
+          reiciendis distinctio assumenda eveniet dignissimos, in sint. Optio, aliquid nam. Vel tempora iste?Optio,
+           aliquid nam. Vel tempora iste Optio, aliquid nam. Vel tempora iste</p>
+        <a class="btn btn2 mt-4" href="">Read More</a>
       </div>
+
     </div>
   </div>
 
-   <!-- footer -->
+<!-- ABOUT US end-->
 
-   <div class="footer">
-    <div class="container">
-      <div class="row">
-       <div class="col-md-8">
-        <div class="form-controls">
-          <input type="email" name="enter your email" id="">
+
+ <!-- discount img -->
+
+ <div class="container-fluid">
+  <div class="row my-5">
+
+    <div class="col-md-7 my-3">
+      <div class="card discount">
+        <img src="assets/pic/images/o1.jpg" alt="" class=" img-fluid  ">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <div class="content text-light">
+                <h1 class="fw-bold">Upto 15% Off</h1>
+                <a class="btn btn1" href="">Shop Now</a>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
       </div>
     </div>
-   </div>
 
-   
+    <div class="col-md-5">
+
+      <div class="row row-cols-1">
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="assets/pic/images/o2.jpg" alt="" class="img-fluid position-relative">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4">
+                  <div class="content-2 text-light position-absolute">
+                    <h3 class="fw-bold">Upto 10% Off</h3>
+                    <a class="btn btn1" href="">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="assets/pic/images/o3.jpg" alt="" class="img-fluid position-relative">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4">
+                  <div class="content-3 text-light position-absolute">
+                    <h3 class="fw-bold">Upto 20% Off</h3>
+                    <a class="btn btn1" href="">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- discount img end -->
+
+
+<!-- Latest From Blog -->
+
+<div class="container">
+  <div class="row mt-5">
+    <h2 class="text-center py-5">LATEST FROM BLOG</h2>
+
+    <div class="col-md-6">
+      <div class="card">
+        <div class="blog-card">
+          <div class="card-pic">
+            <img src="assets/pic/images/b1.jpg" alt="" class="img-fluid w-100">
+          </div>
+          <div class="date-text"><h4>14 <br>july</h4>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-text pt-4">
+            <h5 class="fw-bold">Molestiae ad reiciendis dignissimos</h5>
+            <p>alteration in some form,by injected humour, or randomised words which don't look even sligntl believable.</p>
+            <a class="btn btn3" href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card">
+        <div class="blog-card">
+          <div class="card-pic">
+            <img src="assets/pic/images/b2.jpg" alt="" class="img-fluid w-100">
+          </div>
+          <div class="date-text"><h4>15<br>july</h4>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-text pt-4">
+            <h5 class="fw-bold">Molestiae ad reiciendis dignissimos</h5>
+            <p>alteration in some form,by injected humour, or randomised words which don't look even sligntl believable.</p>
+            <a class="btn btn3" href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<!-- Latest From Blog end-->
+
+
+<!-- footer-1 -->
+
+<div class="footer pt-5">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-10">
+        <div class="footer-form">
+          <input type="text" class="footer-input" placeholder="Enter Your Email">
+          <a class="btn btn2 px-3" href=""><i class="fas fa-arrow-right " style="font-size: x-small;"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="footer-icon d-flex gap-2">
+          <div class="icon"><a href=""><i class="fab fa-facebook-f"></i></a></div>
+          <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>
+          <div class="icon"><a href=""><i class="fab fa-linkedin-in"></i></a></div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="row py-4">
+
+      <div class="col-md-3">
+        <div class="footer-menu">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="instagram">
+          <h4>Instagram</h4>
+        <div class="reader d-flex gap-2">
+          <div class="ft-img mt-1">
+            <img src="assets/pic/images/p1.png" alt="" srcset="" class="h-100 w-100 p-2">
+          </div>
+          <div class="ft-img-text ms-1">
+            <p>long established <br> fact that a <br> reader</p>
+          </div>
+        </div>
+        <div class="reader d-flex gap-2">
+          <div class="ft-img mt-1">
+            <img src="assets/pic/images/p2.png" alt="" srcset="" class="h-100 w-100 p-2">
+          </div>
+          <div class="ft-img-text ms-1">
+            <p>long established <br> fact that a <br> reader</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+       <div class="about-us">
+        <h3>About</h3>
+        <p>When looking at its layout. <br>The point of using lorem <br>
+          ipsum is that it has a <br>more-or-less normal <br>distribution of letters,as <br>opposed to</p>
+       </div>
+      </div>
+
+      <div class="col-md-3">
+       <div class="contact-us">
+        <h3>Contact Us</h3>
+        <a href=""><i class="fas fa-map-marker-alt"></i>  Location</a><br>
+        <a href=""><i class="fas fa-phone-alt"></i>  Call +01962332699</a><br>
+        <a href=""><i class="fas fa-envelope"></i>  tanzilakhanom@gmail.com</a>
+       </div>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+
+  <!-- footer-1 end-->
+
+
+<!-- footer-2 -->
+
+ <div class="footer-2">
+  <div class="footer-2-text text-center my-4 ">
+    <p>&copy;2024 All Right Reserved By Jewellery</p>
+  </div>
+ </div>
+
+<!--footer-2 end -->
+
 </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+
   </body>
 </html>
